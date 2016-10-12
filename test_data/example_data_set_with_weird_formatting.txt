@@ -1,0 +1,14 @@
+; This is a comment!
+>Frag_56
+ATTAGACCTG
+>Frag_57
+; This is also a comment!
+CCTGCCGGAA
+
+>Frag_58
+
+AGACCTGCCG
+
+>Frag_59
+GCCGGAATAC
+>Frag_60

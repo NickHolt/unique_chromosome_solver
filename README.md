@@ -82,6 +82,9 @@ The data structure responsible for representing the sequence graph in code.
 ### UniqueChromosomeReconstructor.java
 The engine that reconstructs the chromosome based on the sequence segments.
 
+### UniqueChromosomeReconstructorTester.java
+A testing class used to validate the solution (see below).
+
 Runtime Analysis
 ======
 In the most general sense, this problem is one of Hamiltonian path finding, a
@@ -104,3 +107,19 @@ have O(N) nodes in the graph as well as O(N) edges.
 
 <sup>1</sup>This does assume genomes are effectively random strings, which is
 not true. However, this should still hopefully give us a sense of likelihood.
+
+Validation
+=====
+This repository also contains the code that was used to the validate the
+solution. A small set of test data is contained within the test data directory,
+and is used by the UniqueChromosomeReconstructorTester class for validation.
+
+To run the tests, simply run the following commands:
+
+```
+$ javac UniqueChromosomeReconstructorTester.java
+$ java UniqueChromosomeReconstructorTester
+```
+
+The validation logic will simply ensure that every sequence segment appears as
+a substring in the reconstructed chromosome.
