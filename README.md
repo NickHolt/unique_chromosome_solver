@@ -1,4 +1,4 @@
-This repository contains my solution to the Driver Group coding challenge.
+This repository contains my solution to the chromosome sequencing coding challenge.
 
 Usage
 ======
