@@ -11,6 +11,13 @@ $ javac UniqueChromosomeReconstructor.java
 $ java UniqueChromosomeReconstructor data_file
 ```
 
+For example, to run the code on the challenge data set, you can run:
+
+```
+$ javac UniqueChromosomeReconstructor.java
+$ java UniqueChromosomeReconstructor test_data/coding_challenge_data_set.txt
+```
+
 Algorithm Overview
 ======
 This solution takes a graph-based approach for finding the viable way in which
